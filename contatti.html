@@ -147,7 +147,7 @@
     <div class="form-row">
       <div class="form-group">
         <label for="nome">Nome e cognome</label>
-        <input autocomplete="name" id="nome" name="nome" required type="text"/>
+        <input autocomplete="name" id="nome" name="name" required type="text"/>
       </div>
       <div class="form-group">
         <label for="email">Email</label>
@@ -155,9 +155,10 @@
       </div>
     </div>
     <div class="form-group">
-      <label for="messaggio">Messaggio</label>
-      <textarea id="messaggio" name="messaggio" placeholder="Scrivi qui il tuo dubbio organizzativo" required rows="6"></textarea>
+      <label for="message">Messaggio</label>
+      <textarea id="message" name="message" placeholder="Scrivi qui il tuo dubbio organizzativo" required rows="6"></textarea>
     </div>
+    <input type="hidden" name="subject" value="Nuovo messaggio dal sito cardiologocarbone.it"/>
     <button class="btn btn-primary" type="submit">Invia il messaggio</button>
     <p class="form-consent">Inviando il modulo dichiari di aver preso visione della <a href="privacy.html">Privacy Policy</a>.</p>
   </form>
